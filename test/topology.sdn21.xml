@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topology>
+<Network>
+ <Hosts/>
+ <Switches>
+  <Switch y="159" x="150"/>
+  <Switch y="155" x="311"/>
+ </Switches>
+ <Controllers>
+  <Controller y="50" x="216" ip="127.0.0.1" port="6653"/>
+ </Controllers>
+ <SSLinks>
+  <Link delay="1" loss="0" node2="s2" bandwidth="1" node1="s1"/>
+ </SSLinks>
+ <CSLinks>
+  <Link node2="s1" node1="c0"/>
+  <Link node2="s2" node1="c0"/>
+ </CSLinks>
+ <Texts/>
+</Network>
